@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="j"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/f/180-92/hw7/j/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/f/180-92/hw7/j/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/f/180-92/hw7/j/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="j">
+				<Option output="/cygdrive/f/180-92/hw7/j/cmake-build-debug/j.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/180-92/hw7/j/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 j"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="j/fast">
+				<Option output="/cygdrive/f/180-92/hw7/j/cmake-build-debug/j.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/f/180-92/hw7/j/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 j/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/f/180-92/hw7/j/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/f/180-92/hw7/j/j/City.cpp">
+			<Option target="j"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/180-92/hw7/j/j/City.h">
+			<Option target="j"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/180-92/hw7/j/j/Coordinate.cpp">
+			<Option target="j"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/180-92/hw7/j/j/Coordinate.h">
+			<Option target="j"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/180-92/hw7/j/j/MapMaker.cpp">
+			<Option target="j"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/180-92/hw7/j/j/Node.cpp">
+			<Option target="j"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/180-92/hw7/j/j/Node.h">
+			<Option target="j"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/180-92/hw7/j/j/SortedLinkedList.cpp">
+			<Option target="j"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/180-92/hw7/j/j/SortedLinkedList.h">
+			<Option target="j"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/180-92/hw7/j/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
