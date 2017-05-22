@@ -1,0 +1,183 @@
+#include <iostream>
+
+using namespace std;
+
+stack 接口文件
+=====================================================================
+//stack.h
+
+#ifndef STACK_H
+#define STACK_H
+
+namespace stacksavitch
+{
+	struct StackFrame
+	{
+		char data;
+		StackFrame *link;
+	};
+	
+	typedef StackFrame* StackFramePtr;
+
+
+class Stack 
+{
+	public:
+		Stack();
+		//初始化为一个空栈
+		
+		Stack(const Stack& a_stack);
+		//构造copy函数
+		
+		~Stack();
+		//销毁栈
+		
+		void push(char the_symbol);
+		//the symbol添加到栈中
+		
+		char pop();
+		//前条件，栈非空
+		//返回栈顶部的字符，并从栈删除那个字符
+		
+		bool empty() const;
+		//如果栈为空，就返回true；否则返回false
+	
+	private:
+		StackFramePtr top;
+};
+}
+#endif
+
+
+
+使用Stack类的程序
+===========================================================================
+#include <iostream>
+#include "stack.h"
+
+using namespace std;
+
+int main()
+{
+	Stack s;
+	char next, ans;
+	
+	do 
+	{
+		cout << "Enter a word:";
+		cin.get(next);
+		while (next != '\n')
+		{
+			s.push(next);
+			cin.get(next);
+		}
+		
+		cout << "Written backward that is:";
+		while (!s.empty())
+			cout << s.pop();
+			cout << endl;
+			
+			cout << "Again?(y/n)";
+			cin >> ans;
+			cin.ignore(10000,"\n");
+	}
+	while (ans != 'n' && ans != 'N');
+	return 0;
+}
+
+Stack类的实现
+===============================================================================
+#include <iostream>
+#include <cstddef>
+#include "stack.h"
+
+using namespace std;
+
+namespace stacksavitch
+{
+	Stack::Stack() : top(NULL)
+	{
+		
+	}
+	
+	Stack::Stack(const Stack a_stack)
+	{
+		if (a_stack.top == NULL)
+			top = NULL;
+		else 
+		{
+			StackFramePtr temp = a_stack.top; //temp在a_stack中从头到尾历遍所有节点
+			StackFramePtr end;//指向新栈的尾部
+			end = new StackFrame;
+			end->data = temp ->data;
+			top = end;
+			//第一个节点已经创建，而且填充了数据
+			//现在要在这个节点之后添加
+			
+			temp = temp -> link;
+			while (temp != NULL)
+			{
+				end -> link = new StackFrame;
+				end = end -> link;
+				end -> data = temp-> data;
+				temp = temp-> link;
+			}
+			
+			end -> link = NULL;
+		}
+	}
+	
+	Stack::~Stack()
+	{
+		char next;
+		while(!empty())
+		next = pop();  //pop会自动调用delete
+	}
+	
+	bool Stack::empty() const
+	{
+		return(top = NULL);
+	}
+	
+	void Stack::push(char_symbol)
+	{
+		StackFramePtr temp_ptr;
+		temp_ptr = new StackFrame;
+		
+		temp_ptr -> data = the symbol;
+		
+		temp_ptr -> link = top;
+		top = temp_ptr;
+	}
+	
+	char Stack::pop()
+	{
+		if(empty())
+		{
+			cout<<"Error: popping an empty stack.\n";
+			exit(1);
+		}
+		
+		char result = top -> data;
+		
+		StackFramePtr temp_ptr;
+		temp_ptr = top;
+		top = top -> link;
+		
+		delete temp_ptr;
+		
+		return result;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+

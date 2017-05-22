@@ -1,0 +1,247 @@
+		************
+		* AVL TREE *
+		************
+
+		*****
+		***** COMPLETED AVL TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		26871
+		Count of Probes
+		129239
+		Count of Comparison
+		197855
+
+		*****
+		***** COMPLETED AVL TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		102806
+		Count of Probes
+		406873
+		Count of Comparison
+		621050
+
+		*****
+		***** COMPLETED AVL TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		245907
+		Count of Probes
+		836644
+		Count of Comparison
+		1268793
+
+		*****
+		***** COMPLETED AVL TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		451027
+		Count of Probes
+		1421096
+		Count of Comparison
+		2144423
+
+		*****
+		***** COMPLETED AVL TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		605771
+		Count of Probes
+		2161899
+		Count of Comparison
+		3235860
+
+		*****
+		***** COMPLETED AVL TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		856919
+		Count of Probes
+		3064594
+		Count of Comparison
+		4541499
+
+		*****
+		***** COMPLETED AVL TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		1.15973e+06
+		Count of Probes
+		4122674
+		Count of Comparison
+		6052421
+
+		*****
+		***** COMPLETED AVL TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		1.40006e+06
+		Count of Probes
+		5349572
+		Count of Comparison
+		7780986
+
+		*****
+		***** COMPLETED AVL TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		1.76756e+06
+		Count of Probes
+		6732671
+		Count of Comparison
+		9704626
+
+		*****
+		***** COMPLETED AVL TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		2.02931e+06
+		Count of Probes
+		8273794
+		Count of Comparison
+		11815324
+		
+		**********************
+		* BINARY SEARCH TREE *
+		**********************
+
+		*****
+		***** COMPLETED BST TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		24850.4
+		Count of Probes
+		159185
+		Count of Comparison
+		214190
+
+		*****
+		***** COMPLETED BST TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		89295.8
+		Count of Probes
+		530888
+		Count of Comparison
+		709286
+
+		*****
+		***** COMPLETED BST TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		198863
+		Count of Probes
+		1069716
+		Count of Comparison
+		1428299
+
+		*****
+		***** COMPLETED BST TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		332128
+		Count of Probes
+		1790803
+		Count of Comparison
+		2362642
+
+		*****
+		***** COMPLETED BST TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		466723
+		Count of Probes
+		2837598
+		Count of Comparison
+		3718147
+
+		*****
+		***** COMPLETED BST TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		607058
+		Count of Probes
+		3975079
+		Count of Comparison
+		5174005
+
+		*****
+		***** COMPLETED BST TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		833019
+		Count of Probes
+		5315392
+		Count of Comparison
+		6893482
+
+		*****
+		***** COMPLETED BST TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		987511
+		Count of Probes
+		6869440
+		Count of Comparison
+		8791263
+
+		*****
+		***** COMPLETED BST TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		1.25027e+06
+		Count of Probes
+		8638693
+		Count of Comparison
+		10977915
+
+		*****
+		***** COMPLETED BST TREE:
+		*****
+
+		>>>>> The tree is now empty.
+		Count of Milliseconds
+		1.42192e+06
+		Count of Probes
+		10562525
+		Count of Comparison
+		13347867

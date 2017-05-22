@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hw12"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/twodog/Desktop/92/hw12/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/twodog/Desktop/92/hw12/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/twodog/Desktop/92/hw12/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw12">
+				<Option output="/Users/twodog/Desktop/92/hw12/cmake-build-debug/hw12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/twodog/Desktop/92/hw12/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 hw12"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hw12/fast">
+				<Option output="/Users/twodog/Desktop/92/hw12/cmake-build-debug/hw12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/twodog/Desktop/92/hw12/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 hw12/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/twodog/Desktop/92/hw12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/DataAllZeroes.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/DataAllZeroes.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/DataGenerator.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/DataGenerator.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/DataRandom.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/DataRandom.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/DataReverseSorted.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/DataReverseSorted.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/DataSorted.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/DataSorted.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/Element.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/Element.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/InsertionSort.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/InsertionSort.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/LinkedList.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/LinkedList.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/ListSorter.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/ListSorter.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/MergeSort.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/MergeSort.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/Node.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/Node.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/QuickSortOptimal.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/QuickSortOptimal.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/QuickSortSuboptimal.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/QuickSortSuboptimal.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/QuickSorter.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/QuickSorter.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/SelectionSort.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/SelectionSort.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/ShellSortOptimal.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/ShellSortOptimal.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/ShellSortSuboptimal.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/ShellSortSuboptimal.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/Sorter.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/Sorter.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/VectorSorter.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/VectorSorter.h">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/main.cpp">
+			<Option target="hw12"/>
+		</Unit>
+		<Unit filename="/Users/twodog/Desktop/92/hw12/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

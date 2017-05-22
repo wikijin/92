@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.7)
+project(hw12)
+
+set(CMAKE_CXX_STANDARD 11)
+
+set(SOURCE_FILES main.cpp DataAllZeroes.cpp DataAllZeroes.h DataGenerator.cpp DataGenerator.h DataRandom.cpp DataRandom.h DataReverseSorted.cpp DataReverseSorted.h DataSorted.cpp DataSorted.h InsertionSort.cpp InsertionSort.h LinkedList.cpp LinkedList.h MergeSort.cpp MergeSort.h QuickSortOptimal.cpp QuickSortOptimal.h QuickSortSuboptimal.cpp QuickSortSuboptimal.h QuickSorter.cpp QuickSorter.h ShellSortOptimal.cpp ShellSortOptimal.h ShellSortSuboptimal.cpp ShellSortSuboptimal.h Sorter.cpp Sorter.h VectorSorter.cpp VectorSorter.h Element.cpp Element.h Node.cpp Node.h SelectionSort.cpp SelectionSort.h ListSorter.cpp ListSorter.h)
+add_executable(hw12 ${SOURCE_FILES} DataAllZeroes.cpp DataAllZeroes.h DataGenerator.cpp DataGenerator.h DataRandom.cpp DataRandom.h DataReverseSorted.cpp DataReverseSorted.h DataSorted.cpp DataSorted.h InsertionSort.cpp InsertionSort.h LinkedList.cpp LinkedList.h MergeSort.cpp MergeSort.h QuickSortOptimal.cpp QuickSortOptimal.h QuickSortSuboptimal.cpp QuickSortSuboptimal.h QuickSorter.cpp QuickSorter.h ShellSortOptimal.cpp ShellSortOptimal.h ShellSortSuboptimal.cpp ShellSortSuboptimal.h Sorter.cpp Sorter.h VectorSorter.cpp VectorSorter.h Element.cpp Element.h Node.cpp Node.h SelectionSort.cpp SelectionSort.h ListSorter.cpp ListSorter.h)
